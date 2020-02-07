@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f1584c-69ba-4071-bc9a-307211c5653c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FrequencyChart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.FrequencyChart">
     <configuration name="FrequencyChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -79,9 +79,25 @@
       <option name="presentableId" value="Default" />
       <updated>1581007375921</updated>
     </task>
+    <task id="LOCAL-00001" summary="finsihed frequency">
+      <created>1581037925013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581037925013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finsihed frequency" />
+    <option name="LAST_COMMIT_MESSAGE" value="finsihed frequency" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="572" y="28" key="CommitChangelistDialog2" timestamp="1581037924438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037924438" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1581037889575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -98,5 +114,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1581037983199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037983199" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1581037926582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037926582" />
   </component>
 </project>
