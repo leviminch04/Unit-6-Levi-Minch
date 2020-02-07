@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f1584c-69ba-4071-bc9a-307211c5653c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MusicLibraryCleint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MusicLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +35,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.FrequencyChart">
+  <component name="RunManager" selected="Application.MusicLibraryCleint">
     <configuration name="FrequencyChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FrequencyChart" />
+      <module name="Unit-6-Levi-Minch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicLibraryCleint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MusicLibraryCleint" />
       <module name="Unit-6-Levi-Minch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -51,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MusicLibraryCleint" />
         <item itemvalue="Application.FrequencyChart" />
         <item itemvalue="Application.Test" />
       </list>
@@ -94,29 +108,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="finsihed frequency" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="88" key="#Project_Structure" timestamp="1581094206417">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1581094206417" />
     <state x="572" y="28" key="CommitChangelistDialog2" timestamp="1581037924438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="572" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037924438" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1581037889575">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="202" key="GridCell.Tab.0.bottom" timestamp="1581096126987">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="202" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1581096126987" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1581037889575">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="202" key="GridCell.Tab.0.center" timestamp="1581096126987">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="202" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1581096126987" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1581037889575">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="202" key="GridCell.Tab.0.left" timestamp="1581096126986">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="202" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1581096126986" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1581037889575">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="202" key="GridCell.Tab.0.right" timestamp="1581096126987">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="202" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1581096126987" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
-    <state x="461" y="161" key="SettingsEditor" timestamp="1581037983199">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="298" y="81" key="SettingsEditor" timestamp="1581093578307">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="298" y="81" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1581093578307" />
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037983199" />
     <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1581037926582">
       <screen x="0" y="0" width="1920" height="1040" />

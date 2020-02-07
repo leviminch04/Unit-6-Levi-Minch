@@ -12,12 +12,25 @@ public class Album {
         this.time = time;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getBand() {
+        return band;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public double getTime() {
+        return time;
+    }
+
     public String toString()
     {
-        String result = this.name + "/n";
-        result += band + "/n";
-        result += length + "/n";
-        result += time + "/n";
+        String result = "name: " + this.name + ", band: " + band + ", length: " + length + ", time: " + time + "\n";
         return result;
     }
 }
