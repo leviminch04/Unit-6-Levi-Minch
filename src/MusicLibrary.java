@@ -8,7 +8,8 @@ public class MusicLibrary {
 
     public MusicLibrary() { }
 
-    public void add(Album album) {
+    public void add(Album album)
+    {
         if(!doubleLibrary)
         {
             for(Album i : library)
@@ -92,6 +93,45 @@ public class MusicLibrary {
         }
     }
      */
+
+    public Album getAlbum(int index)
+    {
+        if(!doubleLibrary)
+            if(index >= 0 && index < library.length)
+                return library[index];
+        else
+            if(index >= 0 && index < newLibrary.length)
+                return newLibrary[index];
+        return null;
+
+    }
+
+    public int findTitle(String title)
+    {
+        if(!doubleLibrary)
+        {
+            for(int i = 0; i < library.length; i++)
+            {
+                if (library[i] != null && library[i].getName().equals(title))
+                {
+                    return i;
+                }
+            }
+        }
+
+        else if(doubleLibrary)
+        {
+            for(int i = 0; i < newLibrary.length; i++)
+            {
+                if (newLibrary[i] != null && newLibrary[i].getName().equals(title))
+                {
+                    return i;
+                }
+            }
+        }
+        return -1;
+    }
+
 
     public void doubleSize() {
         int length = library.length - 1;
