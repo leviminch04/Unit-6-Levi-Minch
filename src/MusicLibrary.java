@@ -69,30 +69,84 @@ public class MusicLibrary {
         return false;
     }
 
-    /*public int location(Album a)
+    public void sortByTitle()
     {
-        if(!doubleLibrary)
-        {
-            for(Album album : library)
+        Album temp;
+        int min;
+        for (int i = 0; i < library.length - 1; i++)
+        { min = i;
+            for (int scan = i; scan < library.length; scan++)
             {
-                if(album == a)
+                if(library[scan] != null && library[i] != null)
                 {
-                    return album.length;
+                    if(library[scan].getName().compareTo(library[min].getName()) < 0)
+                    {
+                        min = scan;
+                    }
                 }
             }
-        }
 
-        else {
-            for(Album album : newLibrary)
+            temp = library[min];
+            library[min] = library[i];
+            library[i] = temp;
+        }
+    }
+
+    public void sortByArtist()
+    {
+        for (int i = 0; i < library.length; i++) {
+            Album key = library[i];
+            int position = i;
+
+            if(key != null && library[1] != null)
             {
-                if(album == a)
+                while(position > 0 && (library[position - 1].getBand().compareTo(key.getBand()) > 0))
                 {
-                    return album.length;
+                    library[position] = library[position - 1];
+                    position--;
                 }
+                library[position] = key;
             }
         }
     }
-     */
+
+    public int binarySearchTitle(String target) {
+        sortByTitle();
+        if(!doubleLibrary)
+        {
+            int low = 0, high = library.length-1, middle = (low + high)/2;
+            while (!library[middle].getName().equals(target) && (low <= high) && library[middle] != null){
+                if (target.compareTo(library[middle].getName()) < 0)
+                    high = middle - 1;
+                else
+                    low = middle + 1;
+                middle = (low + high)/2;
+            }
+
+            if (library[middle].getName().equals(target))
+                return middle;
+            else
+                return -1;
+        }
+        else
+        {
+            int low = 0, high = library.length-1, middle = (low + high)/2;
+            while (!library[middle].getName().equals(target) && (low <= high) && library[middle] != null){
+                if (target.compareTo(library[middle].getName()) < 0)
+                    high = middle - 1;
+                else
+                    low = middle + 1;
+                middle = (low + high)/2;
+            }
+
+            if (library[middle].getName().equals(target))
+                return middle;
+            else
+                return -1;
+        }
+
+    }
+
 
     public Album getAlbum(int index)
     {
@@ -119,11 +173,35 @@ public class MusicLibrary {
             }
         }
 
-        else if(doubleLibrary)
-        {
+        else {
             for(int i = 0; i < newLibrary.length; i++)
             {
                 if (newLibrary[i] != null && newLibrary[i].getName().equals(title))
+                {
+                    return i;
+                }
+            }
+        }
+        return -1;
+    }
+
+    public int findBand(String band)
+    {
+        if(!doubleLibrary)
+        {
+            for(int i = 0; i < library.length; i++)
+            {
+                if (library[i] != null && library[i].getBand().equals(band))
+                {
+                    return i;
+                }
+            }
+        }
+
+        else {
+            for(int i = 0; i < newLibrary.length; i++)
+            {
+                if (newLibrary[i] != null && newLibrary[i].getBand().equals(band))
                 {
                     return i;
                 }
