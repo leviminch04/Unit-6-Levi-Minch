@@ -24,6 +24,7 @@ public class MusicLibraryCleint {
         music.add(a9);
         System.out.println(music.toSting());
        // music.sortByTitle();
+        music.doubleSize();
         System.out.println(music.toSting());
         System.out.println(music.binarySearchTitle("3"));
     }
