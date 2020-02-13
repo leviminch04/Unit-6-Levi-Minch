@@ -71,41 +71,90 @@ public class MusicLibrary {
 
     public void sortByTitle()
     {
-        Album temp;
-        int min;
-        for (int i = 0; i < library.length - 1; i++)
-        { min = i;
-            for (int scan = i; scan < library.length; scan++)
-            {
-                if(library[scan] != null && library[i] != null)
+        if(!doubleLibrary)
+        {
+            Album temp;
+            int min;
+            for (int i = 0; i < library.length - 1; i++)
+            { min = i;
+                for (int scan = i; scan < library.length; scan++)
                 {
-                    if(library[scan].getName().compareTo(library[min].getName()) < 0)
+                    if(library[scan] != null && library[i] != null)
                     {
-                        min = scan;
+                        if(library[scan].getName().compareTo(library[min].getName()) < 0)
+                        {
+                            min = scan;
+                        }
                     }
                 }
-            }
 
-            temp = library[min];
-            library[min] = library[i];
-            library[i] = temp;
+                temp = library[min];
+                library[min] = library[i];
+                library[i] = temp;
+            }
         }
+
+        else
+        {
+            Album temp;
+            int min;
+            for (int i = 0; i < newLibrary.length - 1; i++)
+            { min = i;
+                for (int scan = i; scan < newLibrary.length; scan++)
+                {
+                    if(newLibrary[scan] != null && newLibrary[i] != null)
+                    {
+                        if(newLibrary[scan].getName().compareTo(newLibrary[min].getName()) < 0)
+                        {
+                            min = scan;
+                        }
+                    }
+                }
+
+                temp = newLibrary[min];
+                newLibrary[min] = newLibrary[i];
+                newLibrary[i] = temp;
+            }
+        }
+
     }
 
     public void sortByArtist()
     {
-        for (int i = 0; i < library.length; i++) {
-            Album key = library[i];
-            int position = i;
-
-            if(key != null && library[1] != null)
-            {
-                while(position > 0 && (library[position - 1].getBand().compareTo(key.getBand()) > 0))
+        
+        if(!doubleLibrary)
+        {
+            for (int i = 0; i < library.length; i++) {
+                Album key = library[i];
+                int position = i;
+    
+                if(key != null && library[1] != null)
                 {
-                    library[position] = library[position - 1];
-                    position--;
+                    while(position > 0 && (library[position - 1].getBand().compareTo(key.getBand()) > 0))
+                    {
+                        library[position] = library[position - 1];
+                        position--;
+                    }
+                    library[position] = key;
                 }
-                library[position] = key;
+            }
+        }
+
+        else
+        {
+            for (int i = 0; i < newLibrary.length; i++) {
+                Album key = newLibrary[i];
+                int position = i;
+
+                if(key != null && newLibrary[1] != null)
+                {
+                    while(position > 0 && (newLibrary[position - 1].getBand().compareTo(key.getBand()) > 0))
+                    {
+                        newLibrary[position] = newLibrary[position - 1];
+                        position--;
+                    }
+                    newLibrary[position] = key;
+                }
             }
         }
     }
@@ -130,16 +179,16 @@ public class MusicLibrary {
         }
         else
         {
-            int low = 0, high = library.length-1, middle = (low + high)/2;
-            while (!library[middle].getName().equals(target) && (low <= high) && library[middle] != null){
-                if (target.compareTo(library[middle].getName()) < 0)
+            int low = 0, high = newLibrary.length-1, middle = (low + high)/2;
+            while (!newLibrary[middle].getName().equals(target) && (low <= high) && newLibrary[middle] != null){
+                if (target.compareTo(newLibrary[middle].getName()) < 0)
                     high = middle - 1;
                 else
                     low = middle + 1;
                 middle = (low + high)/2;
             }
 
-            if (library[middle].getName().equals(target))
+            if (newLibrary[middle].getName().equals(target))
                 return middle;
             else
                 return -1;
