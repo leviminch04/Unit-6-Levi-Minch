@@ -67,14 +67,48 @@ public class MyArray2DExplorer {
 
     public int smallEven(int[][] matrix)
     {
-        int arrayReturn = matrix[0][0];
+        int arrayReturn = 2147483647;
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                if(arrayReturn > matrix[i][j] && (matrix[i][j] % 2 == 0))
+                /*
+                compare thi
+                 */
+//                System.out.println(matrix[i][j] + " " + matrix[i][j] % 2);
+                if(arrayReturn > matrix[i][j] && ((matrix[i][j] % 2) == 0))
+//                    System.out.println("setting arrayReturn");
                     arrayReturn = matrix[i][j];
             }
         }
         return arrayReturn;
+    }
+
+    public int biggestRow(int[][] nums)
+    {
+        int intReturn = 0;
+        int check = 0;
+        int row = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if(i == 0)
+            {
+                for (int j = 0; j < nums[i].length; j++) {
+                    intReturn += nums[i][j];
+                }
+            }
+
+            else
+            {
+                for (int j = 0; j < nums[i].length; j++) {
+                    check += nums[i][j];
+                }
+            }
+
+            if(intReturn < check) {
+                intReturn = check;
+                row = i;
+            }
+            check = 0;
+        }
+        return row;
     }
 
 
