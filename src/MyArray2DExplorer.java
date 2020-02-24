@@ -111,6 +111,32 @@ public class MyArray2DExplorer {
         return row;
     }
 
+    public boolean oddColSum(int[][] nums, int col)
+    {
+        int total = 0;
+        for (int i = 0; i < nums[col].length; i++) {
+            total += nums[col][i];
+        }
+        return total % 2 == 1;
+    }
+
+    public int[] minRow2(int[][] nums)
+    {
+        int small = Integer.MAX_VALUE;
+        int[] intReturn = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums[i].length; j++) {
+                if(small > nums[i][j])
+                    small = nums[i][j];
+            }
+            intReturn[i] = small;
+            small = Integer.MAX_VALUE;
+
+        }
+
+        return intReturn;
+    }
+
 
 
 }

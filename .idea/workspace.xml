@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f1584c-69ba-4071-bc9a-307211c5653c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unit-6-Levi-Minch/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayListTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array2DTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyArray2DExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArray2DExplorer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +40,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.ArrayListTester">
-    <configuration name="Array2DTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array2DTester" />
+  <component name="RunManager" selected="Application.ArrayTester">
+    <configuration name="ArrayListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListTester" />
       <module name="Unit-6-Levi-Minch" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListTester" />
+    <configuration name="ArrayTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayTester" />
       <module name="Unit-6-Levi-Minch" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayTester" />
         <item itemvalue="Application.ArrayListTester" />
         <item itemvalue="Application.ColorChooser" />
         <item itemvalue="Application.Picture" />
         <item itemvalue="Application.PictureExplorer" />
-        <item itemvalue="Application.Array2DTester" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582221163970</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=";oiyo 8;Oiyqdqi b lf yu sfqliby efiulbli ebuwlibuw">
+      <created>1582305949631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582305949631</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,41 +167,43 @@
     <MESSAGE value="finis ml" />
     <MESSAGE value="finsished coding asignment #4" />
     <MESSAGE value="pix lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="pix lab" />
+    <MESSAGE value=";oiyo 8" />
+    <MESSAGE value=";oiyo 8;Oiyqdqi b lf yu sfqliby efiulbli ebuwlibuw" />
+    <option name="LAST_COMMIT_MESSAGE" value=";oiyo 8;Oiyqdqi b lf yu sfqliby efiulbli ebuwlibuw" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Project_Structure" timestamp="1581094206417">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1581094206417" />
-    <state x="477" y="0" key="CommitChangelistDialog2" timestamp="1582221162250">
+    <state x="477" y="0" key="CommitChangelistDialog2" timestamp="1582305948131">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="477" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582221162250" />
+    <state x="477" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582305948131" />
     <state x="572" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037924438" />
     <state x="2492" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581572617136" />
-    <state width="1557" height="202" key="GridCell.Tab.0.bottom" timestamp="1582305019065">
+    <state width="1557" height="202" key="GridCell.Tab.0.bottom" timestamp="1582563168544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="202" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582305019065" />
+    <state width="1557" height="202" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582563168544" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560480055" />
-    <state width="1557" height="202" key="GridCell.Tab.0.center" timestamp="1582305019065">
+    <state width="1557" height="202" key="GridCell.Tab.0.center" timestamp="1582563168544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="202" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582305019065" />
+    <state width="1557" height="202" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582563168544" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560480055" />
-    <state width="1557" height="202" key="GridCell.Tab.0.left" timestamp="1582305019065">
+    <state width="1557" height="202" key="GridCell.Tab.0.left" timestamp="1582563168544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="202" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582305019065" />
+    <state width="1557" height="202" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582563168544" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560480054" />
-    <state width="1557" height="202" key="GridCell.Tab.0.right" timestamp="1582305019065">
+    <state width="1557" height="202" key="GridCell.Tab.0.right" timestamp="1582563168544">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="202" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582305019065" />
+    <state width="1557" height="202" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582563168544" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560480055" />
     <state width="1557" height="254" key="GridCell.Tab.1.bottom" timestamp="1581355479574">
@@ -219,10 +227,10 @@
     </state>
     <state x="298" y="81" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1581093578307" />
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037983199" />
-    <state x="460" y="205" key="Vcs.Push.Dialog.v2" timestamp="1582221166406">
+    <state x="460" y="205" key="Vcs.Push.Dialog.v2" timestamp="1582305951928">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="460" y="205" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1582221166406" />
+    <state x="460" y="205" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1582305951928" />
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037926582" />
     <state x="2472" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560453926" />
     <state x="0" y="0" width="758" height="860" key="find.popup" timestamp="1581442415385">
