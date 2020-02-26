@@ -29,9 +29,7 @@ public class Coin {
   class Purse {
   private ArrayList<Coin> coins;
 
-    public Purse() {
-     ArrayList<Coin> coins = new ArrayList<Coin>();
-    }
+    public Purse() {}
 
     // adds aCoin to the purse
     public void add(Coin aCoin) {
@@ -59,5 +57,6 @@ public class Coin {
      }
 
     // returns the name of the Coin in the Purse that has the smallest value
-  }
-  }
+  
+}
+  
