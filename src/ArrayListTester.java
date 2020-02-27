@@ -15,6 +15,7 @@ public class ArrayListTester {
         list.add(2);
         list.add(0);
         list.add(5);
+        
         /*
         stringList.add("AB");
         System.out.println(stringList);
