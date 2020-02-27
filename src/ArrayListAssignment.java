@@ -9,6 +9,7 @@ public class ArrayListAssignment {
             if(list.get(i) == 0)
             {
                 list.remove(i);
+                i--;
             }
         }
     }
