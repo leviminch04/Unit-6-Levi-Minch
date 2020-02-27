@@ -27,7 +27,7 @@ public class Coin {
 
   // A Purse holds a collection of Coins
   class Purse {
-  private ArrayList<Coin> coins;
+    private ArrayList<Coin> coins = new ArrayList<Coin>();
 
     public Purse() {}
 
@@ -53,10 +53,9 @@ public class Coin {
         if(coins.get(i).equals(aCoin))
           count++;
       }
-      return count;
-     }
+        return count;
+    }
 
     // returns the name of the Coin in the Purse that has the smallest value
-  
-}
+  }
   
