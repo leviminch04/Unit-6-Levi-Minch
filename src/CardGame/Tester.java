@@ -1,21 +1,24 @@
-package CardGame;
+// package CardGame;
+
+import java.util.ArrayList;
 
 public class Tester
 {
     public static void main(String[] args) 
     {
-        Deck myDeck = new Deck();
-        System.out.println(myDeck.toString());
-        
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println("Shuffling ;)");
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        War war = new War();
+        while(war.p1DeckSize() > -1 && war.p2DeckSize() > -1)
+        {
+            String check = war.battle();
+            if(war.battle().equals("-100"))
+            {
+                break;
+            }
+            System.out.println(check);
 
-        myDeck.shuffle();
-        System.out.println(myDeck.toString());
+        }
+        System.out.println("test");
     }
+
+
 }

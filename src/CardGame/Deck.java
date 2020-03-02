@@ -1,10 +1,10 @@
-package CardGame;
+// package CardGame;
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
 
 
-public class Deck
+public class Deck extends ArrayList<Card>
 {
     ArrayList<Card> deckList = new ArrayList<Card>();
     Card twoClubs = new Card(2, "two", "Clubs");
@@ -133,6 +133,10 @@ public class Deck
             deckList.set(tempnum2, tempCard);
 
         }
+        tempCard = deckList.get(0);
+        tempnum1 = this.intMinMax();
+        deckList.set(0, deckList.get(tempnum1));
+        deckList.set(tempnum1, tempCard);
     }
     
     public String toString()
@@ -145,8 +149,20 @@ public class Deck
         return result;
     }
 
-    private int intMinMax()
+    public int intMinMax()
     {
         return ThreadLocalRandom.current().nextInt(1, deckList.size());
+    }
+
+    public Card getAndDelete(int index)
+    {
+        Card temp = deckList.get(index);
+        deckList.remove(index);
+        return temp;
+    }
+
+    public Card getIndex(int index)
+    {
+        return deckList.get(index);
     }
 }

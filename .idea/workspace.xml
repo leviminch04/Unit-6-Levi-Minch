@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f1584c-69ba-4071-bc9a-307211c5653c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CardGame/Holdem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CardGame/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CardGame/War.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardGame/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardGame/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CardGame/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardGame/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardGame/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardGame/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -37,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.ArrayTester">
+  <component name="RunManager" selected="Application.Tester">
     <configuration name="ArrayListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListTester" />
       <module name="Unit-6-Levi-Minch" />
@@ -66,20 +73,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PictureExplorer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PictureExplorer" />
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CardGame.Tester" />
       <module name="Unit-6-Levi-Minch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CardGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tester" />
         <item itemvalue="Application.ArrayTester" />
         <item itemvalue="Application.ArrayListTester" />
         <item itemvalue="Application.ColorChooser" />
         <item itemvalue="Application.Picture" />
-        <item itemvalue="Application.PictureExplorer" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +179,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finsihed frequency" />
     <MESSAGE value="music library is to easy" />
     <MESSAGE value="finis ml" />
@@ -187,28 +201,32 @@
     <state x="477" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582653023082" />
     <state x="572" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037924438" />
     <state x="2492" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581572617136" />
-    <state width="1557" height="202" key="GridCell.Tab.0.bottom" timestamp="1582565040330">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1638" height="268" key="GridCell.Tab.0.bottom" timestamp="1582919933124">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1557" height="202" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582565040330" />
+    <state width="1638" height="268" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582919933124" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560480055" />
-    <state width="1557" height="202" key="GridCell.Tab.0.center" timestamp="1582565040330">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1638" height="268" key="GridCell.Tab.0.center" timestamp="1582919933123">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1557" height="202" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582565040330" />
+    <state width="1638" height="268" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582919933123" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560480055" />
-    <state width="1557" height="202" key="GridCell.Tab.0.left" timestamp="1582565040330">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1638" height="268" key="GridCell.Tab.0.left" timestamp="1582919933122">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1557" height="202" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582565040330" />
+    <state width="1638" height="268" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582919933122" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560480054" />
-    <state width="1557" height="202" key="GridCell.Tab.0.right" timestamp="1582565040330">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1638" height="268" key="GridCell.Tab.0.right" timestamp="1582919933123">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1557" height="202" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582565040330" />
+    <state width="1638" height="268" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582919933123" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581037889575" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581560480055" />
     <state width="1557" height="254" key="GridCell.Tab.1.bottom" timestamp="1581355479574">
