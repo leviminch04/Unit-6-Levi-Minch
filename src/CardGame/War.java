@@ -42,9 +42,9 @@ public class War {
 
     public String battle() {
         if((p1Deck.size()) <= 0)
-            return "player 2 wins!";
+            return "------------\nplayer 2 wins!";
         else if(p2Deck.size() <= 0)
-            return "player 1 wins!";
+            return "------------\nplayer 1 wins!";
         System.out.println("p1 deck: " + p1Deck.size());
         Card temp1 = p1Deck.get(0);
         p1Deck.remove(0);
