@@ -10,14 +10,10 @@ public class Tester
         while(war.p1DeckSize() > -1 && war.p2DeckSize() > -1)
         {
             String check = war.battle();
-            if(war.battle().equals("-100"))
-            {
-                break;
-            }
             System.out.println(check);
-
+            if(check.equals("player 2 wins!") || check.equals("player 1 wins!"))
+                break;
         }
-        System.out.println("test");
     }
 
 

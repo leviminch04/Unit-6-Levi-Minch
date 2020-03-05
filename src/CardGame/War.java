@@ -41,15 +41,14 @@ public class War {
     public int p2DeckSize(){return p2Deck.size();}
 
     public String battle() {
-        if((p1Deck.size() <= 1 || p2Deck.size() <= 1))
-        {
-            return  "-100";
-        }
+        if((p1Deck.size()) <= 0)
+            return "player 2 wins!";
+        else if(p2Deck.size() <= 0)
+            return "player 1 wins!";
         System.out.println("p1 deck: " + p1Deck.size());
         Card temp1 = p1Deck.get(0);
         p1Deck.remove(0);
         System.out.println("p2 deck: " + p2Deck.size());
-        System.out.println(p2Deck.size());
         Card temp2 = p2Deck.get(0);
         p2Deck.remove(0);
         
@@ -69,7 +68,7 @@ public class War {
         }
         //tie
         if (temp1.getCardValue() == temp2.getCardValue()) {
-            this.tieWinner(winner);
+            this.tieWinner(0);
         }
         return "Battling... " + temp1.getCardName() + " vs " + temp2.getCardName() + "\nWinner: Player " + winner;
     }
@@ -105,6 +104,8 @@ public class War {
         //sum for player 1
         int sum1 = temp1.getCardValue() + temp2.getCardValue() + temp3.getCardValue() + temp4.getCardValue();
         int sum2 = temp5.getCardValue() + temp6.getCardValue() + temp7.getCardValue() + temp8.getCardValue();
+        System.out.println(sum1);
+        System.out.println(sum2);
         if(sum1 > sum2)
         {
             winner = 1;
@@ -125,6 +126,19 @@ public class War {
             p2Deck.add(temp2);
             p2Deck.add(temp3);
             p2Deck.add(temp4);
+            p2Deck.add(temp5);
+            p2Deck.add(temp6);
+            p2Deck.add(temp7);
+            p2Deck.add(temp8);
+        }
+
+        else if(sum1 == sum2)
+        {
+            winner = -1; 
+            p1Deck.add(temp1);
+            p1Deck.add(temp2);
+            p1Deck.add(temp3);
+            p1Deck.add(temp4);
             p2Deck.add(temp5);
             p2Deck.add(temp6);
             p2Deck.add(temp7);
