@@ -68,7 +68,7 @@ public class War {
         }
         //tie
         if (temp1.getCardValue() == temp2.getCardValue()) {
-            this.tieWinner(0);
+            winner = this.tieWinner(0);
         }
         return "Battling... " + temp1.getCardName() + " vs " + temp2.getCardName() + "\nWinner: Player " + winner;
     }
@@ -104,8 +104,6 @@ public class War {
         //sum for player 1
         int sum1 = temp1.getCardValue() + temp2.getCardValue() + temp3.getCardValue() + temp4.getCardValue();
         int sum2 = temp5.getCardValue() + temp6.getCardValue() + temp7.getCardValue() + temp8.getCardValue();
-        System.out.println(sum1);
-        System.out.println(sum2);
         if(sum1 > sum2)
         {
             winner = 1;
@@ -117,9 +115,10 @@ public class War {
             p1Deck.add(temp6);
             p1Deck.add(temp7);
             p1Deck.add(temp8);
+            System.out.println("p1 deck Size: " + p1Deck.size());
         }
 
-        if(sum1 < sum2)
+        else if(sum1 < sum2)
         {
             winner = 2;
             p2Deck.add(temp1);
@@ -130,6 +129,7 @@ public class War {
             p2Deck.add(temp6);
             p2Deck.add(temp7);
             p2Deck.add(temp8);
+            System.out.println("p2 Deck size: " + p2Deck.size());
         }
 
         else if(sum1 == sum2)
@@ -139,10 +139,12 @@ public class War {
             p1Deck.add(temp2);
             p1Deck.add(temp3);
             p1Deck.add(temp4);
+            System.out.println("p1 Deck Size: " + p1Deck.size());
             p2Deck.add(temp5);
             p2Deck.add(temp6);
             p2Deck.add(temp7);
             p2Deck.add(temp8);
+            System.out.println("p2 Deck Size" + p2Deck.size());
         }
 
 

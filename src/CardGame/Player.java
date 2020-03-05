@@ -12,8 +12,8 @@ public class Player
 
     public int getChips(){return chips;}
     public String getName(){return name;}
-    public void minusChips(int minus){chips -= minus;}
-    public void addChips(int add){chips+= add;}
-    public void setChips(int amount){chips = amount;}
+    // public void minusChips(int minus){chips -= minus;}
+    // public void addChips(int add){chips+= add;}
+    // public void setChips(int amount){chips = amount;}
 
 }
