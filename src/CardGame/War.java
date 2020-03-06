@@ -69,6 +69,8 @@ public class War {
         //tie
         if (temp1.getCardValue() == temp2.getCardValue()) {
             winner = this.tieWinner(0);
+            p1Deck.add(temp1);
+            p2Deck.add(temp2);
         }
         return "Battling... " + temp1.getCardName() + " vs " + temp2.getCardName() + "\nWinner: Player " + winner;
     }
@@ -93,6 +95,7 @@ public class War {
         Card temp4 = p1Deck.get(0);
         p1Deck.remove(0);
         //temp 5-8 are for player 2
+        int length = p2Deck.size();
         Card temp5 = p2Deck.get(0);
         p2Deck.remove(0);
         Card temp6 = p2Deck.get(0);
@@ -101,6 +104,7 @@ public class War {
         p2Deck.remove(0);
         Card temp8 = p2Deck.get(0);
         p2Deck.remove(0);
+        int afterlength = p2Deck.size();
         //sum for player 1
         int sum1 = temp1.getCardValue() + temp2.getCardValue() + temp3.getCardValue() + temp4.getCardValue();
         int sum2 = temp5.getCardValue() + temp6.getCardValue() + temp7.getCardValue() + temp8.getCardValue();
